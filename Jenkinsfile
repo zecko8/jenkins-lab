@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('prova'){
+    stage('check'){
       steps {
-        sh 'echo ciao'
+        sh 'ls -l'
       }
     }
   }
